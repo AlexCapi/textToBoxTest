@@ -4,8 +4,8 @@ require_once(dirname(__FILE__) . '/No2SMS_Client.class.php');
 /* on définit ici en "dur" les variables nécessaires dans le cadre de l'exercice demandé */
 $user        = "devjob";
 $encrypted    = "cG9vcmx5Y29kZWRwYXNzd29yZA==";
-$destination = "+33663931985";
-$message     = "Alexandre CAPELLARO test sms";
+$destination = "+410765363776";
+$message     = "Alexandre CAPELLARO : https://github.com/AlexCapi/textToBoxTest/blob/master/test.php";
 
 /* on décrypte le mot de passe (très complexe) avant la connexion du client */
 $password = base64_decode($encrypted);
